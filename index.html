@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>माधव</title>
+</head>
+
+<body class="light" id="top">
+  <header class="header center">
+    <h3>
+      <a href="#" class="link">माधव</a>
+    </h3>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+
+      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I am <span class="about__name">Madhav Gupta.</span></h1>
+      <h2 class="about__role">Frontend Developer.</h2>
+      <p class="about__desc">
+        I am Junior Frontend Developer able to build a web presence from the ground up - from concept, navigation and
+        layout. Learning how to write well-designed, testable and efficient code using current best practices in Web
+        development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and
+        multimedia Web tools.
+      </p>
+
+      <div class="about__contact center">
+        <a href="https://drive.google.com/file/d/13Pf4UDA7b8vXio9EV7UNix80x-XqokJy/view?usp=sharing" target="_blank">
+          <span class="btn btn--outline">Resume</span>
+        </a>
+
+        <a href="https://github.com/madhavgupta07" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/madhavgupta07/" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Pet Buddy</h3>
+          <p class="project__description">
+            Pet-buddy is a website which caters to almost all the needs of stray animals. We have the following
+            facilities in our website: - Joining as a volunteer, adopting a stray dog or cat., shop to purchase various
+            animal products such as medicines, food and other accessories, donate option is also there, Animal
+            Helpline number on every page.
+          </p>
+          <p></p>
+          <ul class="project__stack">
+            <li class="project__stack-item">ReactJS</li>
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+          </ul>
+
+          <a href="https://github.com/madhavgupta07/team-08-extended" aria-label="source code" class="link link--icon"
+            target="_blank">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://react-app-3b399.web.app/" aria-label="live preview" class="link link--icon"
+            target="_blank">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Population App</h3>
+          <p class="project__description">
+            It is a web app to find population of different countries. Display population of any country according to your search.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">JavaScript</li>
+            <li class="project__stack-item">Bootstrap</li>
+          </ul>
+
+          <a href="https://github.com/madhavgupta07/population-app" aria-label="source code" class="link link--icon" target="_blank">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://madhavgupta07.github.io/population-app/" aria-label="live preview" class="link link--icon" target="_blank">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>Jerry-Run</h3>
+          <p class="project__description">
+            It is a game like web app similar to offline chrome browser game. Display real time score. Animation and game sound makes it more interesting.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">Bootstrap</li>
+          </ul>
+
+          <a href="https://github.com/madhavgupta07/Tom-Jerry" aria-label="source code" class="link link--icon"
+            target="_blank">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://madhavgupta07.github.io/Tom-Jerry/" aria-label="live preview" class="link link--icon"
+            target="_blank">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">React</li>
+        <li class="skills__list-item btn btn--plain">SQL</li>
+        <li class="skills__list-item btn btn--plain">Node</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+        <li class="skills__list-item btn btn--plain">Material UI</li>
+        <li class="skills__list-item btn btn--plain">Bootstrap</li>
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">C</li>
+        <li class="skills__list-item btn btn--plain">C++</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:madhavgupta5555@gmail.com">
+        <span class="btn btn--outline">Email me</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/madhavgupta07" class="link footer__link">
+      @Madhav_Gupta
+    </a>
+  </footer>
+
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
